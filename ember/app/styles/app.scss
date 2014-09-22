@@ -1,0 +1,29 @@
+@import 'bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+html, body {
+  margin: 20px;
+}
+
+p {
+	margin: 20px 0 20px 20px;
+}
+
+.form-wrapper {
+	margin: 10px 10px 10px 10px;
+}
+
+.delete {
+	color: #FF0000;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.search {
+	margin: 5px;
+	width: 100%;
+}

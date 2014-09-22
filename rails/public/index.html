@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ContactCenter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="/">
+
+    <link rel="stylesheet" href="ember-assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
+    <link rel="stylesheet" href="ember-assets/contact-center-9b02938b04d9a08e0fff4c6c39a757f2.css">
+  </head>
+  <body>
+    <script src="ember-assets/vendor-98ee9242b3e1bc0f2e9be2af517478eb.js"></script>
+    <script src="ember-assets/contact-center-330481004623037fa3a92d877835c946.js"></script>
+    <script>
+      window.ContactCenterENV = require('contact-center/config/environment')['default'];
+      window.EmberENV = window.ContactCenterENV.EmberENV;
+      window.ContactCenter = require('contact-center/app')['default'].create(ContactCenterENV.APP);
+    </script>
+  </body>
+</html>

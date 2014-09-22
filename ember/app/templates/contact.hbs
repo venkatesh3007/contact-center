@@ -1,0 +1,25 @@
+{{outlet}}
+
+{{#unless isEditing}}
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<div class="container-fluid">
+				<div class="col-lg-8">
+					<h3 class="panel-title">{{model.fullName}}</h3>
+				</div>
+				
+				<div class="col-lg-4" align="right">
+					<button type="button" class="btn btn-default btn-xs" {{action 'redirectToEdit'}}>Edit</button>
+					<button type="button" class="btn btn-danger btn-xs" {{action 'delete'}}>Delete</button>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="panel-content">
+			<p> Name: {{model.fullName}} </p>
+			<p> Email: {{model.email}} </p>
+		</div>
+	</div>
+{{/unless}}
